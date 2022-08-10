@@ -1,0 +1,72 @@
+body {
+    height: 100vh;
+    color: black;
+    background: fixed;
+    background-image: url(https://joinforces.es/wp-content/uploads/2019/06/Samsung-2019-Monitors_main_1-e1560428033641.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+
+#header {
+
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+ul {
+    list-style: none;
+}
+
+.nav>li {
+    float: left;
+}
+
+.nav li a {
+    background-color: #000;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 12px;
+    display: block;
+}
+
+.nav li a:hover {
+    background-color: #434343;
+}
+
+.proy {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    margin: 10px;
+    font-size: 22px;
+}
+
+footer {
+    display: flex;
+    flex-direction: row;
+    background-color: black;
+    color: white;
+    width: 99.5%;
+    align-items: center;
+    padding-left: 10px;
+    justify-content: center;
+    position: absolute;
+    bottom: 0;
+}
+
+.RRSS {
+
+    height: 25px;
+    width: 25px;
+}
+
+body {
+    opacity: 0;
+    transition: opacity 1s;
+}
